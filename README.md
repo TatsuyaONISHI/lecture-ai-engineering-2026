@@ -30,6 +30,9 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+`app.ask` は回答後も追加の質問を入力でき、同じ Chat セッションの会話履歴を
+引き継ぎます。`exit` または `quit` で終了します。
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
